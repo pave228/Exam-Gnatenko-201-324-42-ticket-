@@ -1,1 +1,240 @@
-test2
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+   #layer1, #layer2, #layer3 {
+    position: relative; /* Относительное позиционирование */
+   } 
+   
+   #layer2{
+    top: -500px; /* Сдвигаем текст вверх */
+   }
+
+   #layer1{
+       left: 140px;
+   }
+   #layer3{z-index: 2;}
+   #layer1 { z-index: 2; }
+   #layer2 { z-index: 1; }
+
+
+
+:root{
+    --text-color1:white;
+    --background-color1:#0D0D33;
+}
+
+a{
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:focus{
+    border: 1px solid #bb626f;
+    box-sizing: border-box;
+    border-radius: 0px;
+    color: rgb(172, 101, 101);
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+.header{
+    width: 1440px;
+    background-color: var(--background-color1);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    display: flex;
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 7%;
+    padding-bottom: 9px;
+}
+
+.logoimg{
+    padding-bottom: 9px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.navall{
+    margin-left: 645px;
+}
+
+ul.nav {
+    font-family: 'Rubik', sans-serif;
+    margin-top: -5%;
+    font-size: 16px;
+
+}
+
+ul.nav li {
+    color: var(--text-color1);
+    display: inline;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+ul.nav li:hover {
+    color: var(--text-color1);
+    display: inline;
+    margin-right: 40px;
+    text-decoration: underline;
+}
+
+.signup{
+    margin-top: -3.5%;
+    margin-left: 1162px;
+    margin-right:140px;
+    height: 40px;
+    width: 140px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.signup:hover{
+    margin-top: -3.5%;
+    margin-left: 1162px;
+    margin-right:140px;
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+   
+    box-shadow:0px 15px 17px 0px violet;
+}
+
+.signuptxt{
+    
+    width: 138px;
+    height: 40px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.signuptxt:hover{
+    
+    width: 138px;
+    height: 40px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+
+    
+    text-align: center;
+    
+    color: #141370;
+}
+
+h1{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 50px;
+/* identical to box height, or 119% */
+
+
+color: #FFFFFF;
+
+}
+
+h2{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 30px;
+/* or 273% */
+
+
+color: #FFFFFF;
+}
+
+.Leaders{
+
+    margin-top: 145px;
+}
+
+.Design{
+    margin-top: -20px;
+}
+
+.Estab{
+    margin-top: 35px;
+}
+
+.bgcity{
+
+}
+
+.viewbrd{
+
+    margin-right: 140px;
+    margin-top: 35px;
+    width: 200px;
+    height: 60px;
+
+    background: #0A8BFE;
+    border-radius: 4px;
+}
+
+.needs{
+    margin-top: -20px;
+}
+
+.viewtxt{
+    height: 30px;
+
+margin-top: 15px;
+margin-left: 45px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+
+
+color: #FFFFFF;
+}
+.viewbrd:hover{
+
+    margin-right: 140px;
+    margin-top: 35px;
+    width: 200px;
+    height: 60px;
+
+    background: #0A8BFE;
+    border-radius: 4px;
+    box-shadow:0px 15px 17px 0px violet;
+}
+
+
+
